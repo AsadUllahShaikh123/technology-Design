@@ -28,6 +28,13 @@ nav {
   flex-direction: column;
   justify-content: flex-end;
 }
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.left h1 {
+  align-self: flex-end;
+}
 ul{
   display: flex;
 }
@@ -36,7 +43,7 @@ li {
 }
 a {
   text-decoration: none;
-  margin-right: 1rem;
+  margin-left: 1rem;
   padding:0.5rem;
   font-size: 1.2rem;
   color: black;
